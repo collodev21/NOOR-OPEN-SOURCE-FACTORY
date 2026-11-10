@@ -11,7 +11,7 @@ Offline-first by default; no ads, telemetry, compulsory subscriptions or cloud a
 ## Start here
 
 - [30-day development roadmap](ROADMAP.md)
-- [Day 1 — Noor SmartScan](day-01-noor-smartscan/README.md)
+- [Day 1 — Noor SmartScan](https://github.com/collodev21/noor-smartscan)
 - [Development log](DEVELOPMENT_LOG.md)
 
 ## Project index
