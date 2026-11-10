@@ -18,9 +18,11 @@ Offline-first by default; no ads, telemetry, compulsory subscriptions or cloud a
 
 | Day | Project | Status | Repository |
 |---:|---|---|---|
-| 1 | Noor SmartScan — offline image-to-PDF foundation | Source and core tests implemented; Windows GUI and hardware workflows unverified | Pending publication verification |
+| 1 | Noor SmartScan — offline image-to-PDF foundation | Source published; 5 core tests pass on Linux; Windows GUI and hardware workflows unverified | [noor-smartscan](https://github.com/collodev21/noor-smartscan) |
 | 2 | Noor ID Layout | Planned | — |
 | 3 | Noor RectoVerso | Planned | — |
+
+Central repository: [NOOR-OPEN-SOURCE-FACTORY](https://github.com/collodev21/NOOR-OPEN-SOURCE-FACTORY).
 
 ## Operating cadence
 

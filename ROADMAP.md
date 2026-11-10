@@ -56,6 +56,6 @@
 
 ## Status
 
-- Day 1 is underway: Noor SmartScan image-to-PDF foundation.
+- Day 1 source published: [Noor SmartScan](https://github.com/collodev21/noor-smartscan); 5 core tests passed on Linux. Windows GUI, scanner/printer workflows and executable remain unverified/not delivered.
 - The initial build environment is Linux with Python and Pillow; it has no .NET SDK or Tkinter. Windows GUI packaging and physical scanner/printer tests therefore require a Windows host. Python core processing can be tested here.
 - GitHub publication is contingent on verifying existing repositories and successful creation/push; no repository or release is claimed by this roadmap.
