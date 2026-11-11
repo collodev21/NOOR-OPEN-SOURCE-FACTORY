@@ -58,5 +58,6 @@
 
 - Day 1 source published: [Noor SmartScan](https://github.com/collodev21/noor-smartscan); 5 core tests passed on Linux. Windows GUI, scanner/printer workflows and executable remain unverified/not delivered.
 - Day 2 source published: [Noor ID Layout](https://github.com/collodev21/noor-id-layout); 7 core tests passed locally and in the Windows/Ubuntu CI matrix on Python 3.10 and 3.12. GUI launch and physical print output remain unverified; no executable/release is claimed.
+- Day 3 source published: [Noor RectoVerso](https://github.com/collodev21/noor-rectoverso); 7 core tests passed locally. Windows GUI launch, GitHub Actions result and physical duplex printer output remain unverified; no executable/release is claimed.
 - The initial build environment is Linux with Python and Pillow; it has no .NET SDK or Tkinter. Windows GUI packaging and physical scanner/printer tests therefore require a Windows host. Python core processing can be tested here.
 - The central roadmap and Day 1 source repositories were created publicly and their `main` branches were verified on GitHub. No Windows executable or release is claimed.
