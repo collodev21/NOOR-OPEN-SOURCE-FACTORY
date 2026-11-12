@@ -21,7 +21,7 @@ Offline-first by default; no ads, telemetry, compulsory subscriptions or cloud a
 | 1 | Noor SmartScan — offline image-to-PDF foundation | Source published; 5 core tests pass on Linux; Windows GUI and hardware workflows unverified | [noor-smartscan](https://github.com/collodev21/noor-smartscan) |
 | 2 | Noor ID Layout — custom-dimension offline ID image layout | Source published; 7 core tests pass locally and in the Windows/Linux CI matrix; GUI and physical printing unverified | [noor-id-layout](https://github.com/collodev21/noor-id-layout) |
 | 3 | Noor RectoVerso — offline front/back layout and calibration | Source published; 7 core tests pass locally and in the Windows/Ubuntu CI matrix; GUI and physical printer workflow unverified | [noor-rectoverso](https://github.com/collodev21/noor-rectoverso) |
-| 4 | Noor Four-Corner Cropper — manual offline perspective correction | Source published; 7 core tests pass locally; CI pending/unverified; Windows GUI and camera/scanner workflows unverified | [noor-four-corner-cropper](https://github.com/collodev21/noor-four-corner-cropper) |
+| 4 | Noor Four-Corner Cropper — manual offline perspective correction | Source published; 7 core tests pass locally and in the Windows/Ubuntu CI matrix; GUI interaction and camera/scanner workflows unverified | [noor-four-corner-cropper](https://github.com/collodev21/noor-four-corner-cropper) |
 
 Central repository: [NOOR-OPEN-SOURCE-FACTORY](https://github.com/collodev21/NOOR-OPEN-SOURCE-FACTORY).
 
