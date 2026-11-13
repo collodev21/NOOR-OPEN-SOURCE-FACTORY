@@ -22,6 +22,7 @@ Offline-first by default; no ads, telemetry, compulsory subscriptions or cloud a
 | 2 | Noor ID Layout — custom-dimension offline ID image layout | Source published; 7 core tests pass locally and in the Windows/Linux CI matrix; GUI and physical printing unverified | [noor-id-layout](https://github.com/collodev21/noor-id-layout) |
 | 3 | Noor RectoVerso — offline front/back layout and calibration | Source published; 7 core tests pass locally and in the Windows/Ubuntu CI matrix; GUI and physical printer workflow unverified | [noor-rectoverso](https://github.com/collodev21/noor-rectoverso) |
 | 4 | Noor Four-Corner Cropper — manual offline perspective correction | Source published; 7 core tests pass locally and in the Windows/Ubuntu CI matrix; GUI interaction and camera/scanner workflows unverified | [noor-four-corner-cropper](https://github.com/collodev21/noor-four-corner-cropper) |
+| 5 | Noor PDF Deskewer — offline slight-skew correction for scanned PDFs | Source published; 7 local tests pass; CI pending; interactive GUI use and hardware workflows unverified | [noor-pdf-deskewer](https://github.com/collodev21/noor-pdf-deskewer) |
 
 Central repository: [NOOR-OPEN-SOURCE-FACTORY](https://github.com/collodev21/NOOR-OPEN-SOURCE-FACTORY).
 

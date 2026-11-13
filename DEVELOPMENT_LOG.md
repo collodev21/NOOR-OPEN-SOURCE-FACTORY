@@ -37,3 +37,13 @@
 - **Not tested:** the GUI was not launched because Tkinter is unavailable in the Linux environment. Interactive Windows desktop use, camera/scanner hardware, and physical output were not tested. GitHub Actions passed all four core-test jobs on Windows and Ubuntu with Python 3.10 and 3.12. No screenshot, Windows executable, installer, or release is claimed.
 - **Status:** source published at https://github.com/collodev21/noor-four-corner-cropper. Central portfolio and roadmap are being updated.
 - **Next:** Day 5 PDF Deskewer; estimate rotation without clipping content and test mixed/noisy inputs before batch-safe export.
+
+## Day 5 — Noor PDF Deskewer (2026-11-13)
+
+- **Problem:** scanned PDFs can contain pages rotated a few degrees, causing hard-to-read or awkwardly printed documents.
+- **Alternatives reviewed:** OCRmyPDF offers `--deskew` within an OCR/image-processing pipeline; `sbrunner/deskew` estimates skew for images; `unpaper` processes scanned sheets and offers deskew/cleanup. Noor PDF Deskewer focuses on an offline PDF interface with per-page estimates and manual correction, without requiring OCR.
+- **Implemented:** Python core, Tkinter GUI and CLI; PDF page rendering with PDFium; projection-profile angle estimator for slight skew; per-page manual adjustment and preview; same-size page rotation without intentional edge clipping; batch PDF export with source preservation; safe temporary handling; limits for DPI, page count, page dimensions and correction angles; Windows install and rasterization tradeoff documentation.
+- **Tests performed:** seven local `unittest` tests passed with Python 3.12, Pillow, NumPy, pypdf and pypdfium2. Covered known positive/negative synthetic skew, near-level and blank pages, correction direction, white-corner fill and unchanged page canvas, multi-page rasterized PDF output/page dimensions, measured skew reduction, mismatch angles, invalid PDF and source overwrite protection. Both modules passed `py_compile`; CLI help ran.
+- **Not tested:** Tkinter GUI was not launched because it is unavailable in the Linux environment. No interactive Windows GUI, physical scanner/printer, or physical page output test was performed. GitHub Actions is configured; result not yet verified. No executable, installer or release is claimed. Output rasterizes pages, so pre-existing text/vector layers, annotations, signatures, links, metadata and bookmarks are not preserved.
+- **Status:** source published at https://github.com/collodev21/noor-pdf-deskewer; central index and roadmap updated. CI status pending verification.
+- **Next:** Day 6 Magic Color, with reversible color/grayscale/black-and-white presets and before/after preview; preserve originals and test on color and low-contrast scans.
