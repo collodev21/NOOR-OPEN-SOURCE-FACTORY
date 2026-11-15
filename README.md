@@ -24,6 +24,7 @@ Offline-first by default; no ads, telemetry, compulsory subscriptions or cloud a
 | 4 | Noor Four-Corner Cropper — manual offline perspective correction | Source published; 7 core tests pass locally and in the Windows/Ubuntu CI matrix; GUI interaction and camera/scanner workflows unverified | [noor-four-corner-cropper](https://github.com/collodev21/noor-four-corner-cropper) |
 | 5 | Noor PDF Deskewer — offline slight-skew correction for scanned PDFs | Source published; 7 core tests pass locally and in the Windows/Ubuntu CI matrix; interactive GUI use and hardware workflows unverified | [noor-pdf-deskewer](https://github.com/collodev21/noor-pdf-deskewer) |
 | 6 | Noor Magic Color — offline image color, grayscale and B&W presets | Source published; 9 core tests pass locally and in the Windows/Ubuntu CI matrix; interactive GUI and physical output unverified | [noor-magic-color](https://github.com/collodev21/noor-magic-color) |
+| 7 | Noor Batch Image-to-PDF — naturally sorted folder-to-PDF export | Source published; 10 core tests pass locally; CI pending; GUI and physical output unverified | [noor-batch-image-to-pdf](https://github.com/collodev21/noor-batch-image-to-pdf) |
 
 Central repository: [NOOR-OPEN-SOURCE-FACTORY](https://github.com/collodev21/NOOR-OPEN-SOURCE-FACTORY).
 
