@@ -25,7 +25,7 @@ Offline-first by default; no ads, telemetry, compulsory subscriptions or cloud a
 | 5 | Noor PDF Deskewer — offline slight-skew correction for scanned PDFs | Source published; 7 core tests pass locally and in the Windows/Ubuntu CI matrix; interactive GUI use and hardware workflows unverified | [noor-pdf-deskewer](https://github.com/collodev21/noor-pdf-deskewer) |
 | 6 | Noor Magic Color — offline image color, grayscale and B&W presets | Source published; 9 core tests pass locally and in the Windows/Ubuntu CI matrix; interactive GUI and physical output unverified | [noor-magic-color](https://github.com/collodev21/noor-magic-color) |
 | 7 | Noor Batch Image-to-PDF — naturally sorted folder-to-PDF export | Source published; 10 core tests pass locally and in the Windows/Ubuntu CI matrix; GUI and physical output unverified | [noor-batch-image-to-pdf](https://github.com/collodev21/noor-batch-image-to-pdf) |
-| 8 | Noor PDF Page Reorganizer — reorder, rotate, remove or extract PDF pages | Source published; 11 core tests pass locally; CI pending; interactive GUI and hardware workflows unverified | [noor-pdf-page-reorganizer](https://github.com/collodev21/noor-pdf-page-reorganizer) |
+| 8 | Noor PDF Page Reorganizer — reorder, rotate, remove or extract PDF pages | Source published; 11 core tests pass locally; all four Windows/Ubuntu Python 3.10/3.12 CI jobs pass; interactive GUI and hardware workflows unverified | [noor-pdf-page-reorganizer](https://github.com/collodev21/noor-pdf-page-reorganizer) |
 
 Central repository: [NOOR-OPEN-SOURCE-FACTORY](https://github.com/collodev21/NOOR-OPEN-SOURCE-FACTORY).
 
