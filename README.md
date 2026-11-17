@@ -26,6 +26,7 @@ Offline-first by default; no ads, telemetry, compulsory subscriptions or cloud a
 | 6 | Noor Magic Color — offline image color, grayscale and B&W presets | Source published; 9 core tests pass locally and in the Windows/Ubuntu CI matrix; interactive GUI and physical output unverified | [noor-magic-color](https://github.com/collodev21/noor-magic-color) |
 | 7 | Noor Batch Image-to-PDF — naturally sorted folder-to-PDF export | Source published; 10 core tests pass locally and in the Windows/Ubuntu CI matrix; GUI and physical output unverified | [noor-batch-image-to-pdf](https://github.com/collodev21/noor-batch-image-to-pdf) |
 | 8 | Noor PDF Page Reorganizer — reorder, rotate, remove or extract PDF pages | Source published; 11 core tests pass locally; all four Windows/Ubuntu Python 3.10/3.12 CI jobs pass; interactive GUI and hardware workflows unverified | [noor-pdf-page-reorganizer](https://github.com/collodev21/noor-pdf-page-reorganizer) |
+| 9 | Noor Local OCR Assistant — local searchable-PDF or page-separated text output | Source published; 12 core tests and 2 real Tesseract integration tests pass locally; all four Windows/Ubuntu Python 3.10/3.12 CI jobs pass; interactive GUI unverified | [noor-local-ocr-assistant](https://github.com/collodev21/noor-local-ocr-assistant) |
 
 Central repository: [NOOR-OPEN-SOURCE-FACTORY](https://github.com/collodev21/NOOR-OPEN-SOURCE-FACTORY).
 
